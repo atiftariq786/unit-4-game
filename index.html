@@ -19,27 +19,62 @@
  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 </head>
-<body>
+<body>		
+		<h1>Crystal Collector Game</h1>
+					
+		<h2>Instructions</h2>
+		<ul>
+            <li>A random number of crystal power is choosen to start the game.</li>
+		    <li>Select a crystal to see how much crystal power it has.</li>
+			<li>You win if you get exactly the same crystal power asked for.</li>
+            <li>You lose if you get too much crystal power.</li>
+            <li>The game restarts whenever the player wins or loses.</li>
+            <li>When the game begins again, the player should see a new random number.</li> 
+            <li>The random number shown at the start of the game should be between 19 - 120.</li>
+            <li>Each crystal should have a random hidden value between 1 - 12.</li>
+            </ul>
+				
+		          
+            <p > Random Number: <span id="randomNumber"></span> </p></br>
+            
+            
+            <p> Wins : <span id="wins"></span>  </p></br>
+              
+            <p> Losses : <span id="loss"></span>  </p></br>
+            
+            <p> Score : <span id="score"></span> </p>	</br>	
+		
+					
+            <div class="row">
+				<div class="col-md-3">
+					<h3 id="black-crystal-header">Black Crystal</h3>
+					<img class="crystal1" id="black-crystal-image" src="assets/images/black_crystal.png" height= alt="Black Crystal">
+					</div>
+			    <div class="col-md-4">
+					<h3 id="purple-crystal-header">Purple Crystal</h3>
+					<img class="crystal2" id="purple-crystal-image" src="assets/images/purple_crystal.png" height= alt="Purple Crystal">
+					</div>
+				<div class="col-md-5">
+					<h3 id="red-crystal-header">Red Crystal</h3>
+					<img class="crystal3" id="red-crystal-image" src="assets/images/red_crystal.png" height= alt="Red Crystal">
+					</div>
+				<div class="col-md-6">
+					<h3 id="green-crystal-header">Green Crystal</h3>
+					<img class="crystal4" id="green-crystal-image" src="assets/images/green_crystal.png" height= alt="Green Crystal">
+					</div>
+				</div>  
+			
+		
 
-<h1>Unit 4 Game Start</h1>
-
-<p id="winner"> You Won...!  </p>
-<p id="losser"> You lost...!  </p>
-
-<p > Random Number : <span id="RandomNumber"></span>  </p>
 
 
-<p> Wins : <span id="wins"></span>  </p>
-  
-<p> Losses : <span id="loss"></span>  </p>
-
-<p> Score : <span id="score"></span> </p>
 
 
-<button id="crystal1">Crystal-1</button>
-<button id="crystal2">Crystal-2</button>
-<button id="crystal3">Crystal-3</button>
-<button id="crystal4">Crystal-4</button>
+
+
+
+
+
 
 
 

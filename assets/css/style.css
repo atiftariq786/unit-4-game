@@ -1,15 +1,14 @@
 
 
-html{
-    background: grey;
-    color:white;
-    size: 20px;
-    text-align: center;
-    padding-top: 50px;
-}
-h1{
-    color:yellow;
 
+body{
+    background-image: url("C:/Users/Hassan/Desktop/unit-4-game/assets/images/Background.jpg");
+    height: 400px;
+    width: 960px;
+}
+
+ul{
+    color: grey;
 }
 
 #wins {
@@ -21,10 +20,110 @@ h1{
 #loss {
     color:red;
       font-size: 20px;
+
       
 }
-#randomNumber{
-    color: yellow;
+#randomNumber, #score{
+    color:blue;
       font-size: 20px;
       
 }
+/*-----------------------------------------------------*/
+
+.col-md-12{
+    margin: 20px;
+    text-align: left;
+    width: 500px;
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+.crystal1, .crystal2, .crystal3, .crystal4 {
+    height: 100px;
+    width: 100px;
+}
+p {
+    line-height: 30%;
+    color:white;
+    position: absolute;
+    right: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#black-crystal-header {
+    color:  gray;
+    width: 200px;
+    margin: 0px;
+
+}
+
+#purple-crystal-header {
+    color: purple;
+    width: 200px;
+    margin: 0px;
+   
+   
+
+}
+
+#red-crystal-header {
+    color: red;
+    width: 200px;
+    margin: 0px;
+
+}
+
+#green-crystal-header {
+    color: #12E09C;
+    width: 200px;
+    margin: 0px;
+
+}
+
+h1 {
+    color: white;
+    margin: 0px;
+}
+
+h2 {
+    color: gray;
+    margin: 20px;
+    
+}
+
+.col-md-3{
+    position:absolute;
+     width: 250px;
+     top: 70%;
+     right: 60%;
+ }
+
+
+.col-md-4{
+   position:absolute;
+    width: 250px;
+    right: 45%;
+    top: 70%;
+    margin: 0px;
+    padding: 0px;
+}
+.col-md-5{
+    position:absolute;
+     width: 250px;
+     right: 30%;
+     top: 70%;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .col-md-6{
+    position:absolute;
+     width: 250px;
+     right: 15%;
+     top: 70%;
+     margin: 0px;
+     padding: 0px;
+ }
+ 

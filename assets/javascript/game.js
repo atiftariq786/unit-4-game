@@ -13,7 +13,7 @@ var score = 0;
     function RandNum() {
 
         mainRandNum = Math.floor(Math.random()* 102)+19;
-        $("#RandomNumber").text(mainRandNum);
+        $("#randomNumber").text(mainRandNum);
     }
     RandNum();
 
@@ -64,7 +64,7 @@ var score = 0;
   
 
 // game on click button operation -------------------------------------------
-    $(document).on("click", "#crystal1", 
+    $(document).on("click", ".crystal1", 
     function(){
         
         score += crystals[0];
@@ -72,14 +72,14 @@ var score = 0;
         $("#score").text(score);
     })
 
-    $(document).on("click", "#crystal2", 
+    $(document).on("click", ".crystal2", 
     function(){
         score += crystals[1];
         gameOperation();
         $("#score").text(score);
     })
 
-    $(document).on("click", "#crystal3", 
+    $(document).on("click", ".crystal3", 
     function(){
         
         score += crystals[2];
@@ -87,7 +87,7 @@ var score = 0;
         $("#score").text(score);
     })
 
-    $(document).on("click", "#crystal4", 
+    $(document).on("click", ".crystal4", 
     function(){
         
         score += crystals[3];
