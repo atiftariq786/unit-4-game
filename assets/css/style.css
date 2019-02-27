@@ -9,23 +9,24 @@ body{
 
 ul{
     color: grey;
+    font-size: 18px;
 }
 
 #wins {
     color:greenyellow;
-      font-size: 20px;
+      font-size: 25px;
       
 }
 
 #loss {
     color:red;
-      font-size: 20px;
+      font-size: 25px;
 
       
 }
 #randomNumber, #score{
-    color:blue;
-      font-size: 20px;
+    color:yellow;
+      font-size: 25px;
       
 }
 /*-----------------------------------------------------*/
@@ -44,12 +45,9 @@ ul{
     width: 100px;
 }
 p {
-    line-height: 30%;
+    
     color:white;
-    position: absolute;
-    right: 50%;
-    font-size: 20px;
-    text-align: center;
+    
 }
 
 #black-crystal-header {
@@ -127,3 +125,50 @@ h2 {
      padding: 0px;
  }
  
+ /*-------------------------------------------*/
+ .styleRand {
+    position:absolute;
+    width: 250px;
+    right: 60%;
+    top: 50%;
+    margin: 0px;
+    padding: 0px;
+
+ }
+
+ .styleWin {
+    position:absolute;
+    width: 250px;
+    right: 45%;
+    top: 50%;
+    margin: 0px;
+    padding: 0px;
+
+ }
+
+ .styleLoss {
+    position:absolute;
+    width: 250px;
+    right: 30%;
+    top: 50%;
+    margin: 0px;
+    padding: 0px;
+
+ }
+
+ .styleScore {
+    position:absolute;
+    width: 250px;
+    right: 15%;
+    top: 50%;
+    margin: 0px;
+    padding: 0px;
+
+ }
+
+
+
+
+
+
+
