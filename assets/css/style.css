@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: url("C:/Users/Hassan/Desktop/unit-4-game/assets/images/Background.jpg");
+    background-image: url("../images/Background.jpg");
     height: 400px;
     width: 960px;
 }
