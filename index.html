@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title> Titile</title>
+  <title> Unit-4 Crystal Collector Game</title>
 
   <!-- HTML to jquery Link -->
 
@@ -20,21 +20,23 @@
 
 </head>
 <body>		
-		<h1>Crystal Collector Game</h1>
+		<h1 >Crystal Collector Game</h1>
 					
-		<h2>Instructions</h2>
+		<h2 class="heading-1">Instructions</h2>
 		<ul>
             <li>A random number of crystal power is choosen to start the game.</li>
-		    <li>Select a crystal to see how much crystal power it has.</li>
-			<li>You win if you get exactly the same crystal power asked for.</li>
+		    		<li>Select a crystal to see how much crystal power it has.</li>
+						<li>You win if you get exactly the same crystal power asked for.</li>
             <li>You lose if you get too much crystal power.</li>
             <li>The game restarts whenever the player wins or loses.</li>
             <li>When the game begins again, the player should see a new random number.</li> 
             <li>The random number shown at the start of the game should be between 19 - 120.</li>
             <li>Each crystal should have a random hidden value between 1 - 12.</li>
             </ul>
-				
-		          
+				<img class="animation-1" src="assets/images/crystals-2.gif">  
+				<img class="animation-2" src="assets/images/crystals.gif">  
+						<h2 class="alertLoss">GAME OVER!</h2>
+						<h2 class="alertWon">YOU WON!</h2>  
             <p class="styleRand" > Random Number: <span id="randomNumber"></span> </p></br>
             
             <p class="styleWin"> Wins : <span id="wins"></span>  </p></br>
@@ -44,17 +46,17 @@
             <p class="styleScore"> Score : <span id="score"></span> </p>	</br>	
 		
 					
-            <div class="row">
+        <div class="row">
 				<div class="col-md-3">
 					<h3 id="black-crystal-header">Black Crystal</h3>
 					<img class="crystal1" id="black-crystal-image" src="assets/images/black_crystal.png" height= alt="Black Crystal">
 					</div>
-			    <div class="col-md-4">
+			  <div class="col-md-4">
 					<h3 id="purple-crystal-header">Purple Crystal</h3>
 					<img class="crystal2" id="purple-crystal-image" src="assets/images/purple_crystal.png" height= alt="Purple Crystal">
 					</div>
 				<div class="col-md-5">
-					<h3 id="red-crystal-header">Red Crystal</h3>
+				 	<h3 id="red-crystal-header">Red Crystal</h3>
 					<img class="crystal3" id="red-crystal-image" src="assets/images/red_crystal.png" height= alt="Red Crystal">
 					</div>
 				<div class="col-md-6">
@@ -63,19 +65,6 @@
 					</div>
 				</div>  
 			
-		
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>

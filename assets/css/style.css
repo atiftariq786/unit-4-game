@@ -10,23 +10,41 @@ body{
 ul{
     color: grey;
     font-size: 18px;
+    background:black;
+    width: 600px;
 }
+
+.animation-1 {
+    width: 720px;
+    height: 200px;
+    position: absolute;
+    right: 0%;
+    top: 14%;
+}
+.animation-2 {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 62%;
+    top: 1.5%;
+}
+
 
 #wins {
     color:greenyellow;
-      font-size: 25px;
+      font-size: 20px;
       
 }
 
 #loss {
     color:red;
-      font-size: 25px;
+      font-size: 20px;
 
       
 }
 #randomNumber, #score{
     color:yellow;
-      font-size: 25px;
+      font-size: 20px;
       
 }
 /*-----------------------------------------------------*/
@@ -80,14 +98,25 @@ p {
 
 }
 
+.heading-1 {
+    color: gray;
+    margin: 42px;
+    
+    
+    
+}
+
 h1 {
     color: white;
     margin: 0px;
+    position: absolute;
+    right: 38%;
+    top: 2%;
 }
 
 h2 {
     color: gray;
-    margin: 20px;
+    margin: 40px;
     
 }
 
@@ -128,11 +157,15 @@ h2 {
  /*-------------------------------------------*/
  .styleRand {
     position:absolute;
-    width: 250px;
-    right: 60%;
-    top: 50%;
-    margin: 0px;
-    padding: 0px;
+    width: 750px;
+    right: 24%;
+    top: 54%;
+    padding: 4px 4px 4px 40px ;
+    background:rgb(22, 22, 22);
+    border-style: solid;
+    border-color:rgb(92, 92, 92);
+    border-width: 0.2px;
+    font-size: 18px;
 
  }
 
@@ -140,9 +173,10 @@ h2 {
     position:absolute;
     width: 250px;
     right: 45%;
-    top: 50%;
+    top: 57%;
     margin: 0px;
-    padding: 0px;
+    padding: 4px 4px 4px 4px ;
+    font-size: 18px;
 
  }
 
@@ -150,9 +184,10 @@ h2 {
     position:absolute;
     width: 250px;
     right: 30%;
-    top: 50%;
+    top: 57%;
     margin: 0px;
-    padding: 0px;
+    padding: 4px 4px 4px 4px ;
+    font-size: 18px;
 
  }
 
@@ -160,13 +195,35 @@ h2 {
     position:absolute;
     width: 250px;
     right: 15%;
-    top: 50%;
+    top: 57%;
     margin: 0px;
-    padding: 0px;
+    padding: 4px 4px 4px 4px ;
+    font-size: 18px;
 
  }
 
+ .alertLoss {
+    position:absolute;
+    width: 300px;
+    right: 38%;
+    top: 48.5%;
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font-size: 40px;
 
+ }
+ .alertWon {
+    position:absolute;
+    width: 300px;
+    right: 38%;
+    top: 48.5%;
+    margin: 0px;
+    padding: 0px;
+    color:greenyellow;
+    font-size: 40px;
+
+ }
 
 
 
