@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: url("https://github.com/atiftariq786/unit-4-game/blob/master/assets/images/Background.jpg?raw=true");
+    background-image: url("C:/Users/Hassan/Desktop/unit-4-game/assets/images/Background.jpg");
     height: 400px;
     width: 960px;
 }
@@ -12,6 +12,10 @@ ul{
     font-size: 18px;
     background:black;
     width: 600px;
+    height: 200px;
+   position: absolute;
+   top: 11.2%;
+   
 }
 
 .animation-1 {
